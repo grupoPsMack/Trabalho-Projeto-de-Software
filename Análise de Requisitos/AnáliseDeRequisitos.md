@@ -8,6 +8,7 @@ Identificação dos Requisitos do Sistema Falcão Sombrio para Drones
 
 Descrição do que o sistema **Deve** fazer.
 
+
 | ID | RF | DESCRIÇÃO |
 | ---------- | ----- | ----------- |
 |  RF-01        | Autenticação     | O sistema deve permitir que o usuário faça autenticação por biometria e autenticação multifator     |
@@ -19,6 +20,7 @@ Descrição do que o sistema **Deve** fazer.
 |  RF-07        | Logs  |   O sistema deve Gerar Logs de missões realizadas e eventos críticos|
 |  RF-08        | Operação Autônoma |  O sistema deve operar de forma autônoma baseado em redes neurais |
 |  RF-09        | Priorização |   O sistema deve ser capaz de priorizar processos conforme a o status crítico da missão |
+|  RF-10        | FailOver | O sistema deve suportar failover automático, para quando ocorre falha de servidor |
 
 
 
@@ -27,11 +29,12 @@ Descrição do que o sistema **Deve** fazer.
 Descrição de **Como** o sistema deve se comportar
 
 
-- O sistema deve garantir uma criptografia de ponta e assinaturas digitais
+| ID | RNF | DESCRIÇÃO |
+| ---------- | ----- | ----------- |
+|  RNF-01        | Segurança     |  O sistema deve garantir uma criptografia de ponta e assinaturas digitais     |
+|  RNF-02       | Monitoramento    | O sistema deve monitorar processos do SO embarcado, para evitar falhas. O SO embarcado precisa gerenciar múltiplas threads de sensores navegação e IA    |
+|  RNF-03        | Armazenamento |   O sistema deve possuir um Banco de Dados NoSQL distribuido para dados em tempo real |
+|  RNF-04        | Tolência de Falhas |O sistema deve ter protocolos para a comunicação segura e em tempo real com os drones junto a mecanismos de fallback
 
-- O sistema deve ter protocolos para a comunicação segura e em tempo real com os drones junto a mecanismos de fallback
 
-- O sistema deve monitorar processos do SO embarcado, para evitar falhas. O SO embarcado precisa gerenciar múltiplas threads de sensores navegação e IA,  
-
-- O sistema deve possuir um Banco de Dados NoSQL distribuido para dados em tempo real
 
