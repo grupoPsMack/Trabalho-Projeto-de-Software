@@ -35,6 +35,8 @@ Descrição de **Como** o sistema deve se comportar
 |  RNF-02       | Monitoramento    | O sistema deve monitorar processos do SO embarcado, para evitar falhas. O SO embarcado precisa gerenciar múltiplas threads de sensores navegação e IA    |
 |  RNF-03        | Armazenamento |   O sistema deve possuir um Banco de Dados NoSQL distribuido para dados em tempo real |
 |  RNF-04        | Tolência de Falhas |O sistema deve ter protocolos para a comunicação segura e em tempo real com os drones junto a mecanismos de fallback
+|  RNF-05        | Performace   | O sistema não deve sofrer de latência elevada e interrupção de comunicação |
+|  RNF-06        | Duração dos Logs | O sistema deve garantir que os Logs sejamm altamente disponíveis |
 
 
 
