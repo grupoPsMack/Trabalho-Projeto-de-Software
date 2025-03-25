@@ -1,9 +1,9 @@
 ## Diagrama de Fluxo de Trabalho do Sistema Falcão Sombrio
 
-Este diagrama descreve o fluxo de trabalho do sistema Falcão Sombrio, desenvolvido pela Securus Dynamics, para operações remotas e autônomas de drones bélicos Aquila-X.
+Este diagrama descreve o fluxo de trabalho do sistema Falcão Sombrio, desenvolvido pela Securus Dynamics, para operações remotas e autônomas de drones bélicos.
 
 
-![Diagrama de Fluxo de Trabalho do Sistema Falcão Sombrio](data:image/png;base64)
+![Diagrama de Fluxo de Trabalho do Sistema Falcão Sombrio](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagrama.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PitfIqzmgf4f9A1S-WMTCt8LcpUPYiBn%26export%3Ddownload)
 
 
 ### Seções do Diagrama
@@ -19,7 +19,6 @@ Este diagrama descreve o fluxo de trabalho do sistema Falcão Sombrio, desenvolv
     * **Tentativas Falhas:** Registro de tentativas de autenticação inválidas.
     * **Não Existem Tentativas:** Indica que não houve tentativas de autenticação falhas.
 2.  **Missões:**
-    * **Deleção de Amigos (Opcional):** Restrição de acesso a outros operadores.
     * **Log da Missão:** Registro detalhado da missão no BD.
     * **Fim da Função:** Conclusão da operação do drone.
 3.  **Interface:**
@@ -27,7 +26,7 @@ Este diagrama descreve o fluxo de trabalho do sistema Falcão Sombrio, desenvolv
 
 ### Descrição Detalhada
 
-O processo começa com a autenticação do usuário, que insere digital e senha. Após a autenticação, o usuário seleciona a função do drone e o opera remotamente ou por IA. A deleção de amigos (opcional) restringe o acesso. Todas as ações são registradas no BD.
+O processo começa com a autenticação do usuário, que insere digital e senha. Após a autenticação, o usuário seleciona a função do drone e o opera remotamente ou por IA. A partir disso a missão iniciará. Todas as ações geram logs que são registrados no BD.
 
 ### Considerações
 
