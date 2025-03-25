@@ -3,7 +3,7 @@
 Este diagrama descreve o fluxo de trabalho do sistema Falcão Sombrio, desenvolvido pela Securus Dynamics, para operações remotas e autônomas de drones bélicos.
 
 
-![Diagrama de Fluxo de Trabalho do Sistema Falcão Sombrio](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagrama.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PitfIqzmgf4f9A1S-WMTCt8LcpUPYiBn%26export%3Ddownload)
+[Diagrama de Fluxo de Trabalho do Sistema Falcão Sombrio](https://github.com/grupoPsMack/Trabalho-Projeto-de-Software/blob/main/Diagrama/Diagrama.drawio.png)
 
 
 ### Seções do Diagrama
