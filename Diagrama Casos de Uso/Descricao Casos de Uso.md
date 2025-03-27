@@ -1,11 +1,11 @@
 # Diagrama de Casos de Uso: Sistema de Gerenciamento de Drones
 
-## Ator
+## Atores
 
 * **Operador Militar:** Usuário principal do sistema, responsável por interagir com os drones.
+* **IA do Drone:** Inteligência artificial do drone, responsável por diversas funcionalidades.
 
-
-## Casos de Uso Principais
+## Casos de Uso Principais (Operador Militar)
 
 * **Efetuar Login:**
     * Inclui (<<include>>) **Autorização Multi-Fator** (camada extra de segurança).
@@ -44,3 +44,32 @@
 ## Resumo
 
 O diagrama descreve um sistema abrangente para gerenciamento de drones, com foco em segurança, controle, monitoramento e registro de dados. Destaca a importância da autenticação segura, operações autônomas e remotas, e logs detalhados para análise e melhoria contínua.
+
+
+
+## Casos de Uso Principais (IA do Drone)
+
+* **Monitorar processos do SO embarcado:**
+    * Acompanha o funcionamento do sistema operacional do drone.
+      
+* **Ativar mecanismo de fallback:**
+    * Aciona um plano alternativo em caso de falha.
+      
+* **Reconhecer território hostil:**
+    * Identifica áreas perigosas ou não seguras.
+      
+* **Gerar logs:**
+    * Registra informações sobre as operações do drone.
+    * Inclui (<<include>>) **Log de Missões**.
+    * Inclui (<<include>>) **Log de evento crítico**.
+      
+* **Detectar ameaças:**
+    * Identifica possíveis perigos.
+      
+* **Evadir ameaça:**
+    * Executa ações para evitar ameaças detectadas.
+    * Inclui (<<include>>) **Detectar ameaças**.
+
+## Resumo
+
+O diagrama descreve as funcionalidades da IA do drone, incluindo monitoramento, segurança, registro de dados e resposta a ameaças.
