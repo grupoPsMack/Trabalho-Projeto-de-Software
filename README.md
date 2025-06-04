@@ -1,10 +1,6 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
-<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Sistemas de Informação</a></h3>
+<h3>Sistema Falcão Sombrio para Drones</h3>
 
-
-<font size="+12"><center>
-**Sistema Falcão Sombrio para Drones**
-</center></font>
 
 **Conteúdo**
 
@@ -30,7 +26,17 @@
 
 # Descrição do Projeto
 
-*&lt;Introdução do projeto&gt;*
+A Securus Dynamics é uma empresa multinacional especializada no
+desenvolvimento de drones bélicos autônomos para operações militares. Seu
+principal produto, o Aquila-X, é uma frota de drones equipados com
+inteligência artificial e sensores avançados, capazes de realizar missões
+táticas, reconhecimento em território hostil e ataques de precisão.
+A empresa está desenvolvendo um novo sistema chamado Falcão Sombrio, que
+permitirá a operação remota e autônoma dos drones através de uma rede de
+servidores distribuídos e uma interface operacional avançada. O projeto
+envolve desafios de sistemas operacionais (tempo real, segurança e
+concorrência), além de banco de dados (armazenamento distribuído,
+replicação e logs de auditoria). 
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 *&lt;Descrição dos requisitos&gt;*
